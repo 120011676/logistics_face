@@ -9,16 +9,6 @@
 <script type="text/javascript" src="/js/cufon-yui.js"></script>
 <script type="text/javascript" src="/js/arial.js"></script>
 <script type="text/javascript" src="/js/cuf_run.js"></script>
-<script type="text/javascript">
-	window.onload = function() {
-		document.getElementsByName("orderNumber")[0].onfocus = function() {
-			this.value = "";
-		};
-		document.getElementsByName("orderNumber")[0].onblur = function() {
-			this.value = "Search...";
-		};
-	}
-</script>
 <sitemesh:write property='head' />
 </head>
 <body>
@@ -47,9 +37,9 @@
 						action="/consignment/query.htm">
 						<div style="float: left; line-height: 35px;">订单号：</div>
 						<span> <input name="orderNumber" type="text"
-							class="keywords" id="textfield" maxlength="50" value="Search..." />
-							<input name="b" type="image" src="/images/search.gif"
-							class="button" />
+							class="keywords" id="textfield" maxlength="50"
+							value="${orderNumber }" /> <input name="b" type="image"
+							src="/images/search.gif" class="button" />
 						</span>
 					</form>
 				</div>

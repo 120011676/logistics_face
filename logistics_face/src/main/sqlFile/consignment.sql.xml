@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqls>
+ <sql name="queryConsignment">
+  select * from consignment where enable = true and order_number =
+  :orderNumber
+ </sql>
+</sqls>
