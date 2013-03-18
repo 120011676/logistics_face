@@ -46,9 +46,7 @@
 				<td class="textRight">到站：</td>
 				<td>${consignment.arrivalCity }</td>
 				<td class="textRight">状态：</td>
-				<td><c:if test="${consignment.status == 0}">装货中</c:if> <c:if
-						test="${consignment.status == 1}">送货中</c:if> <c:if
-						test="${consignment.status == 2}">已收货</c:if></td>
+				<td>${consignment.status }</td>
 			</tr>
 		</table>
 	</c:if>

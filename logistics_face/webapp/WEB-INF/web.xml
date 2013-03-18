@@ -71,7 +71,7 @@
  </filter>
  <filter-mapping>
   <filter-name>sitemesh</filter-name>
-  <url-pattern>/*</url-pattern>
+  <url-pattern>*.htm</url-pattern>
  </filter-mapping>
 
  <listener>

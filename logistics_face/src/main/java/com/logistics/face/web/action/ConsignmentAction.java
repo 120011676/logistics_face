@@ -45,7 +45,7 @@ public class ConsignmentAction {
 						c.setArrivalCity(resultSet.getString("arrival_city"));
 						c.setConsignee(resultSet.getString("consignee"));
 						c.setSignDatetime(resultSet.getDate("sign_datetime"));
-						c.setStatus(resultSet.getInt("status"));
+						c.setStatus(resultSet.getString("status"));
 						return c;
 					}
 				});

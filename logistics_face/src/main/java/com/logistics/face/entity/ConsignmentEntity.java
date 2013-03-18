@@ -16,7 +16,7 @@ public class ConsignmentEntity {
 
 	private Date signDatetime;// 收 获 日 期
 
-	private Integer status;// 0:装货中，1:送货中，2:已收货
+	private String status;// 0:装货中，1:送货中，2:已收货
 
 	public String getOrderNumber() {
 		return orderNumber;
@@ -66,11 +66,11 @@ public class ConsignmentEntity {
 		this.signDatetime = signDatetime;
 	}
 
-	public Integer getStatus() {
+	public String getStatus() {
 		return status;
 	}
 
-	public void setStatus(Integer status) {
+	public void setStatus(String status) {
 		this.status = status;
 	}
 
