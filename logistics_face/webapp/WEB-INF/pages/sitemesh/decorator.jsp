@@ -18,96 +18,46 @@
 			<div class="header_resize">
 				<div class="menu_nav">
 					<ul>
-						<li class="active"><a href="/"><span>Home</span></a></li>
-						<li><a href="/support.html"><span>Support</span></a></li>
-						<li><a href="/about.html"><span>About Us</span></a></li>
-						<li><a href="/blog.html"><span>Blog</span></a></li>
-						<li><a href="/contact.html"><span>Contact Us</span></a></li>
+						<li><a href="/"><span>首页</span></a></li>
+						<li class="active"><a href="/support.html"><span>公司简介</span></a></li>
+						<li><a href="/about.html"><span>运输价格</span></a></li>
+						<li><a href="/log.html"><span>公司动态</span></a></li>
+						<li><a href="/contact.html"><span>招聘信息</span></a></li>
+						<li><a href="/we.html"><span>联系我们</span></a></li>
 					</ul>
+
 				</div>
 				<div class="clr"></div>
 				<div class="logo">
 					<h1>
-						<a href="/">webco<span>rp</span></a><small> Simple web
-							template</small>
+						<a href="/"><img src="/images/project/logo.jpg" height="70px" /></a>
 					</h1>
 				</div>
-				<div class="search" style="width: 350px;">
+				<div class="search">
 					<form id="form" name="form" method="post"
 						action="/consignment/query.htm">
-						<div style="float: left; line-height: 35px;">订单号：</div>
 						<span> <input name="orderNumber" type="text"
-							class="keywords" id="textfield" maxlength="50"
-							value="${orderNumber }" /> <input name="b" type="image"
-							src="/images/search.gif" class="button" />
+							class="keywords" id="textfield" maxlength="50" value="Search..." />
+							<input name="b" type="image" src="/images/search.gif"
+							class="button" />
 						</span>
 					</form>
 				</div>
+				<!--/search -->
+
 				<div class="clr"></div>
 				<div class="header_img">
-					<img src="/images/main_img.jpg" alt="image" width="970"
-						height="223" />
+					<img src="/images/main_img.jpg" alt="image" width="970" height="223" />
 					<div class="clr"></div>
 				</div>
 			</div>
 		</div>
 		<div class="clr"></div>
-		<div class="content_resize">
-			<div class="content">
+		<div class="content">
+			<div class="content_resize">
 				<div class="mainbar">
 					<div class="article">
 						<sitemesh:write property='body' />
-					</div>
-				</div>
-				<div class="sidebar">
-					<div class="gadget">
-						<h2>Sidebar Menu</h2>
-						<div class="clr"></div>
-						<ul class="sb_menu">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">TemplateInfo</a></li>
-							<li><a href="#">Style Demo</a></li>
-							<li><a href="#">Blog</a></li>
-							<li><a href="#">Archives</a></li>
-							<li><a href="http://www.dreamtemplate.com/">Web
-									Templates</a></li>
-						</ul>
-					</div>
-					<div class="gadget">
-						<h2>
-							<span>Sponsors</span>
-						</h2>
-						<div class="clr"></div>
-						<ul class="ex_menu">
-							<li><a href="http://www.dreamtemplate.com" title="վ���ز�">DreamTemplate</a><br />
-								Over 6,000+ Premium Web Templates</li>
-							<li><a href="http://www.templatesold.com"
-								title="WordPress Themes">TemplateSOLD</a><br /> Premium
-								WordPress &amp; Joomla Themes</li>
-							<li><a href="http://www.imhosted.com"
-								title="Affordable Hosting">ImHosted.com</a><br /> Affordable
-								Web Hosting Provider</li>
-							<li><a href="http://www.myvectorstore.com"
-								title="Stock Icons">MyVectorStore</a><br /> Royalty Free Stock
-								Icons</li>
-							<li><a href="http://www.evrsoft.com" title="Website Builder">Evrsoft</a><br />
-								Website Builder Software &amp; Tools</li>
-							<li><a href="http://www.csshub.com/" title="CSS Templates">CSS
-									Hub</a><br /> Premium CSS Templates</li>
-						</ul>
-					</div>
-					<div class="gadget">
-						<h2>Wise Words</h2>
-						<div class="clr"></div>
-						<p>
-							<img src="images/test_1.gif" alt="image" width="19" height="20" />
-							<em>We can let circumstances rule us, or we can take charge
-								and rule our lives from within </em>.<img src="images/test_2.gif"
-								alt="image" width="19" height="20" />
-						</p>
-						<p style="float: right;">
-							<strong>Earl Nightingale</strong>
-						</p>
 					</div>
 				</div>
 				<div class="clr"></div>
@@ -161,7 +111,7 @@
 					&copy; Copyright <a href="#">MyWebSite</a>.
 				</p>
 				<p class="lf">
-					Layout by [i] <a href="http://sc.chinaz.com/">中文</a>
+					Layout by [i] <a href="http://sc.chinaz.com/">站长素材</a>
 				</p>
 				<div class="clr"></div>
 			</div>
